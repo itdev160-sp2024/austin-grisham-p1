@@ -1,0 +1,79 @@
+body
+{
+    font-family: 'Nanum Gothic', sans-serif;
+    color: #2020d2;
+    background-color: #f909b9;
+}
+
+header
+{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 10px solid #2020d2;
+    text-align: center;
+    margin: 0 auto;
+}
+
+h1, h2
+{
+    color: #2020d2;
+}
+
+h3 
+{
+    color: #2020d2;
+    text-align: center;
+}
+
+img
+{
+    height: 300px;
+    text-align: left;
+}
+
+figcaption span
+{
+    font-size: .85em;
+}
+
+p#brothers-breakdown::first-letter
+{
+    font-size: 2em;
+}
+
+p#brothers-breakdown::first-line
+{
+    font-size: 1.0em;
+}
+
+a[href]
+{
+    color: #3abb0b;
+    text-decoration: none;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+p#brothers-breakdown
+{
+    margin: 20px 0 20px 0;
+    text-align: justify;
+}
+
+div.review
+{
+    padding: 2px;
+    background-color: #ffffff;
+    margin: 2px 0;
+    border: 3px solid #2020d2;
+
+}
+
+table, ul
+{
+    background-color:#ffffff;
+    border: 3px solid #2020d2;
+}
